@@ -1,12 +1,12 @@
 module.exports = {
     port: 3000,
     domain: 'localhot',
-
     postgress: {
-        port: 2701,
+        port: 5432,
         host: 'localhost',
-        user: 'username',
-        password: 'pwd'
+        user: 'postgres',
+        password: 'root',
+        database: 'kemuel-db'
     },
     security: {
         enc: {
