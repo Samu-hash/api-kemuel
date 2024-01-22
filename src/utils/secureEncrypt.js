@@ -6,8 +6,8 @@ const KEY = crypto.randomBytes(config.get('security.enc.key'))
 const IV = crypto.randomBytes(config.get('security.enc.iv'))
 const ALG = config.get('security.enc.alg')
 
-const pipe = '|'
-const hex = 'hex'
+const pipe = config.get('utils.pipe')
+const hex = config.get('utils.hex')
 
 const encriptador = (text) => {
 
