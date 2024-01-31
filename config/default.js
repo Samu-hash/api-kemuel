@@ -13,6 +13,9 @@ module.exports = {
             key: 32,
             iv: 16,
             alg: 'aes-256-cbc'
+        },
+        jwt: {
+            bearer: 'Bearer'
         }
     },
     utils:{
