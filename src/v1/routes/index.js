@@ -7,9 +7,9 @@ const encriptador = require('./encriptadorRoutes')
 
 const PATH_V1 = '/api/v1/'
 
-router.use(PATH_V1, middleware, usuarios)
-
-router.use(PATH_V1, usuarios)
-router.use(PATH_V1, encriptador)
+router
+.use(PATH_V1, middleware, usuarios)
+.use(PATH_V1, usuarios)
+.use(PATH_V1, encriptador)
 
 module.exports = router

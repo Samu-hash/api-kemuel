@@ -1,3 +1,4 @@
+
 const jwt = require('jsonwebtoken')
 const config = require('config')
 
@@ -20,4 +21,4 @@ const authentication = (req, res, next) => {
     })
 }
 
-module.exports = {authentication}
+module.exports = authentication

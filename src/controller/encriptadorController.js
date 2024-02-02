@@ -8,6 +8,6 @@ const desencriptarRegistro = (req, res) => {
     enc.desencriptador("val")
 }
 
-module.exports = [
+module.exports = {
     encriptarRegistro, desencriptarRegistro
-]
+}
